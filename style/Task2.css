@@ -1,0 +1,13 @@
+.cointainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:solid thick black;
+    padding: 19%;
+}
+.item{
+    border:solid thick rgba(255, 153, 0, 0.9);
+    text-align: left;
+    padding-bottom: 6%;
+    padding-right: 10%;
+}

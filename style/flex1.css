@@ -1,0 +1,42 @@
+.nav-bar
+        {
+            height: 50px;
+            display: flex;
+            background-color: rgb(237, 234, 234);
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+              
+            
+        }
+        .content-page
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            text-align: center;
+            margin-top: 1%;
+
+        }
+        .box1,.box2
+        {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border:solid black;
+            width: 45%;
+
+        }
+        
+        a{
+            text-decoration: none;
+            color:black
+        }
+        .cont1,.cont2
+        {
+            padding: 3%;
+        }
+        .footer{
+            background-color:rgb(237, 234, 234);
+        }
+        

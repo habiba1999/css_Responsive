@@ -1,0 +1,56 @@
+body{
+    margin:0%;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-template-areas:
+    "one two two two "
+    "one two two two "
+    "one three three four"
+    "one three three four"
+    "one three three four"
+    "one three three four"
+    "five five five four "
+    "five five five four "
+    "five five five four "
+    ;
+    grid-gap: 5px;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+from {
+  transform: rotate(45deg);
+}
+to {
+  transform: rotate(404deg);
+}
+}
+.one{
+    background-color: rgb(40, 5, 183);
+    grid-area: one;
+}
+.two{
+    background-color: rgb(40, 5, 183);
+    grid-area: two;
+}
+.three{
+    background-color: rgb(40, 5, 183);
+    grid-area: three;
+}
+.four{
+    background-color: rgb(40, 5, 183);
+    grid-area: four;
+
+}
+.five{
+    background-color: rgb(40, 5, 183);
+    grid-area: five;
+
+}

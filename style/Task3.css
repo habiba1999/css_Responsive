@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-template-areas:
+    " head  head  head  head "
+    "snav  art art sbar"
+    "snav art art sbar"
+    "snav art art sbar"
+    "snav art art sbar"
+    "snav art art sbar"
+    "foot foot foot foot "
+    ;
+
+    grid-gap: 5px;
+    text-align: center;
+    color: white;
+    
+}
+.Header {
+background-color: rgb(40, 5, 183);
+grid-area: head;
+padding: 2%;
+}
+.SideNav {
+background-color: chocolate;
+grid-area: snav;
+padding: 4%;
+}
+.MainContent {
+background-color: rgb(132, 211, 96);
+grid-area: art;
+padding: 4%;
+}
+.sidBar{
+background-color: chocolate;
+grid-area: sbar;
+padding: 4%;
+}
+.footer {
+background-color: rgb(40, 5, 183);
+grid-area: foot;
+padding: 2%;
+}
